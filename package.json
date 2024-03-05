@@ -1,41 +1,40 @@
 {
-  "name": "cascader-city-vue",
-  "private": false,
-  "version": "1.0.0",
-  "description": "Vue城市选择",
-  "main": "dist/cascader-city-vue.cjs",
-  "module": "dist/cascader-city-vue.js",
-  "exports":{
-    ".":{
-      "import": "./dist/cascader-city-vue.js",
-      "require": "./dist/cascader-city-vue.cjs"
-    }
-  },
-  "homepage": "https://github.com/longwaye/cascader-city-vue",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/longwaye/cascader-city-vue.git"
-  },
-  "author": "longwaye",
-  "license": "ISC",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@types/node": "^20.11.22",
-    "china-area-data": "^5.0.1",
-    "vue": "^3.3.4",
-    "lodash": "^4.17.21",
-    "ant-design-vue": "2.2.8"
-
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@types/lodash": "^4.14.172",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
-  }
+	"name": "cascader-city-vue",
+	"private": false,
+	"version": "1.0.0",
+	"description": "Vue城市选择",
+	"main": "dist/cascader-city-vue.cjs",
+	"module": "dist/cascader-city-vue.js",
+	"exports": {
+		".": {
+			"import": "./dist/cascader-city-vue.js",
+			"require": "./dist/cascader-city-vue.cjs"
+		}
+	},
+	"homepage": "https://github.com/longwaye/cascader-city-vue",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/longwaye/cascader-city-vue.git"
+	},
+	"author": "longwaye",
+	"license": "ISC",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit --skipLibCheck && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@types/node": "^20.11.22",
+		"china-area-data": "^5.0.1",
+		"vue": "^3.3.4",
+		"lodash": "^4.17.21",
+		"ant-design-vue": "2.2.8"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.2.3",
+		"@types/lodash": "^4.14.172",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5",
+		"vue-tsc": "^1.8.5"
+	}
 }
