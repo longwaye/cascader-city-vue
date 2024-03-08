@@ -1,7 +1,7 @@
 {
 	"name": "cascader-city-vue",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Vue城市选择",
 	"main": "dist/cascader-city-vue.cjs",
 	"module": "dist/cascader-city-vue.js",
